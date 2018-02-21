@@ -1,4 +1,5 @@
 ﻿using _04_FactoryMethod.Pizza;
+using static System.Console;
 
 namespace _04_FactoryMethod.PizzaStore
 {
@@ -12,6 +13,9 @@ namespace _04_FactoryMethod.PizzaStore
             pizza.Bake();
             pizza.Cut();
             pizza.Box();
+
+            WriteLine();
+            WriteLine(pizza);
         }
 
         protected abstract AbstractPizza CreatePizza(PizzaTypesEn type);

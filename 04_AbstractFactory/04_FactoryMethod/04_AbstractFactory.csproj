@@ -42,7 +42,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\ChicagoIngredientsFactory.cs" />
     <Compile Include="Factories\IAbstractIngredientsFactory.cs" />
+    <Compile Include="Factories\NYIngredientsFactory.cs" />
+    <Compile Include="Ingredients\Cheese\ICheese.cs" />
+    <Compile Include="Ingredients\Cheese\Mozzarella.cs" />
+    <Compile Include="Ingredients\Cheese\ReggianoCheese.cs" />
+    <Compile Include="Ingredients\Clam\FrozenClam.cs" />
+    <Compile Include="Ingredients\Clam\FreshClam.cs" />
+    <Compile Include="Ingredients\Clam\IClam.cs" />
+    <Compile Include="Ingredients\Dough\IDough.cs" />
+    <Compile Include="Ingredients\Dough\ThickDough.cs" />
+    <Compile Include="Ingredients\Dough\ThinDough.cs" />
+    <Compile Include="Ingredients\Pepperoni\IPepperoni.cs" />
+    <Compile Include="Ingredients\Pepperoni\SlicedPepperoni.cs" />
+    <Compile Include="Ingredients\Sauce\ISauce.cs" />
+    <Compile Include="Ingredients\Sauce\MarinaraSauce.cs" />
+    <Compile Include="Ingredients\Sauce\PlumTomatoSauce.cs" />
+    <Compile Include="Ingredients\Veggie\BlackOlives.cs" />
+    <Compile Include="Ingredients\Veggie\Garlic.cs" />
+    <Compile Include="Ingredients\Veggie\EggPlant.cs" />
+    <Compile Include="Ingredients\Veggie\Spinach.cs" />
+    <Compile Include="Ingredients\Veggie\MushRoom.cs" />
+    <Compile Include="Ingredients\Veggie\Onion.cs" />
+    <Compile Include="Ingredients\Veggie\IVeggie.cs" />
     <Compile Include="PizzaStore\ChicagoStylePizzaStore.cs" />
     <Compile Include="PizzaStore\NYStylePizzaStore.cs" />
     <Compile Include="PizzaStore\PizzaStore.cs" />
@@ -50,7 +73,7 @@
     <Compile Include="Pizza\ConcretePizzas\ClamPizza.cs" />
     <Compile Include="Pizza\ConcretePizzas\PepperoniPizza.cs" />
     <Compile Include="Pizza\ConcretePizzas\VeggiePizza.cs" />
-    <Compile Include="Pizza\ConcretePizzas\PizzaTypesEn.cs" />
+    <Compile Include="Pizza\PizzaTypesEn.cs" />
     <Compile Include="Pizza\AbstractPizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
